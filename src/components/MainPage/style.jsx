@@ -3,6 +3,7 @@ import Image from "../../img/MainImage.jpg";
 
 export const styleArea = styled.div`
   background-image: url(${Image});
+  background-repeat: no-repeat;
   position: relative;
   background-size: 100%;
   height: 600px;
@@ -30,17 +31,34 @@ export const textBox = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: blue;
-  top: 10px;
-  left: 280px;
-  width: calc(100% - 500px);
-  height: 500px;
+  flex-wrap: wrap;
+  color: white;
+  background-color: rgba(0, 168, 143, 0.3);
+  top: 180px;
+  left: 470px;
+  width: 500px;
+  height: 200px;
+  h1 {
+    position: relative;
+    top: 10px;
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
   h2 {
-    display: block;
+    position: relative;
+    top: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     margin-right: 10px;
+    font-size: 40px;
+  }
+  h3 {
+    position: relative;
+    bottom: 20px;
   }
 
-  @media (max-width: 800px) {
+  @media only screen and (max-width: 1000px) {
     left: 250px;
   }
 `;

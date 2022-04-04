@@ -7,8 +7,9 @@ const Main = () => {
       <S.imageDiv>
         <S.styleArea>
           <S.textBox>
-            <h2>Wellcome to</h2>
+            <h2>Welcome to</h2>
             <h1>SURVEY</h1>
+            <h3>간단한 설문조사에 참여하세요!</h3>
           </S.textBox>
         </S.styleArea>
       </S.imageDiv>
