@@ -1,12 +1,16 @@
 import React from "react";
 import * as S from "./style";
 
-const main = () => {
+const Main = () => {
   return (
-    <div>
-      <S.styleArea />
-    </div>
+    <S.backgroundArea>
+      <S.imageDiv>
+        <S.styleArea>
+          <h2>he</h2>
+        </S.styleArea>
+      </S.imageDiv>
+    </S.backgroundArea>
   );
 };
 
-export default main;
+export default Main;
