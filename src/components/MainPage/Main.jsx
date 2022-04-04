@@ -6,7 +6,10 @@ const Main = () => {
     <S.backgroundArea>
       <S.imageDiv>
         <S.styleArea>
-          <h2>he</h2>
+          <S.textBox>
+            <h2>Wellcome to</h2>
+            <h1>SURVEY</h1>
+          </S.textBox>
         </S.styleArea>
       </S.imageDiv>
     </S.backgroundArea>

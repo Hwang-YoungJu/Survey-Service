@@ -24,3 +24,23 @@ export const backgroundArea = styled.div`
   top: 0;
   left: 0;
 `;
+
+export const textBox = styled.div`
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  top: 10px;
+  left: 280px;
+  width: calc(100% - 500px);
+  height: 500px;
+  h2 {
+    display: block;
+    margin-right: 10px;
+  }
+
+  @media (max-width: 800px) {
+    left: 250px;
+  }
+`;
