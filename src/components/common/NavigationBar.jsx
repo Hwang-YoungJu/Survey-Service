@@ -7,7 +7,7 @@ const Bar = styled.div`
   display: flex;
   align-items: center;
 
-  width: 100%;
+  width: 100vw;
   height: 100px;
   top: 0px;
   h1 {
@@ -15,9 +15,10 @@ const Bar = styled.div`
     display: block;
     width: 100px;
     margin: 20px 0 20px 0;
+    font-size: 36px;
     line-height: 40px;
     top: 8px;
-    left: 30px;
+    left: 60px;
     color: #00a88f;
   }
   h2 {
@@ -26,14 +27,10 @@ const Bar = styled.div`
     width: 80px;
     height: 50px;
     padding: 10px;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 20px;
     top: 10px;
     right: 80px;
-  }
-  div {
-    width: 90px;
-    margin-right: 20px;
   }
 `;
 
@@ -44,6 +41,10 @@ const LoginBox = styled.div`
   width: 120px;
   position: absolute;
   right: 0px;
+  div {
+    width: 250px;
+    display: flex;
+  }
 `;
 
 const NavigationBar = () => {
@@ -54,8 +55,6 @@ const NavigationBar = () => {
         <LoginBox>
           <div>
             <h2>Sign in</h2>
-          </div>
-          <div>
             <h2>Sign up</h2>
           </div>
         </LoginBox>

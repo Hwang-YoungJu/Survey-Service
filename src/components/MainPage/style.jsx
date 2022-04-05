@@ -35,7 +35,7 @@ export const textBox = styled.div`
   color: white;
   background-color: rgba(0, 168, 143, 0.3);
   top: 180px;
-  left: 470px;
+  left: calc(100% - 1150px);
   width: 500px;
   height: 200px;
   h1 {
@@ -57,8 +57,23 @@ export const textBox = styled.div`
     position: relative;
     bottom: 20px;
   }
+  @media only screen and (max-width: 1850px) {
+    left: 660px;
+  }
+  @media screen and (max-width: 1700px) {
+    left: calc(100% - 1000px);
+  }
+  @media screen and (max-width: 1430px) {
+    left: 400px;
+  }
+  @media screen and (max-width: 1300px) {
+    left: 330px;
+  }
 
-  @media only screen and (max-width: 1000px) {
+  @media only screen and (max-width: 1100px) {
     left: 250px;
+  }
+  @media only screen and (max-width: 1000px) {
+    left: 190px;
   }
 `;
