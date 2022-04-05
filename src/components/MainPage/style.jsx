@@ -33,11 +33,12 @@ export const textBox = styled.div`
   justify-content: center;
   flex-wrap: wrap;
   color: white;
-  background-color: rgba(0, 168, 143, 0.3);
+  background-color: rgba(17, 35, 59, 0.3);
+  border-radius: 50px;
   top: 180px;
   left: calc(100% - 1150px);
   width: 500px;
-  height: 200px;
+  height: 300px;
   h1 {
     position: relative;
     top: 10px;
@@ -55,7 +56,8 @@ export const textBox = styled.div`
   }
   h3 {
     position: relative;
-    bottom: 20px;
+    left: 90px;
+    bottom: 75px;
   }
   @media only screen and (max-width: 1850px) {
     left: 660px;

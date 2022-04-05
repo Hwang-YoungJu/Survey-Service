@@ -19,7 +19,7 @@ const Bar = styled.div`
     line-height: 40px;
     top: 8px;
     left: 60px;
-    color: #00a88f;
+    color: #00a885;
   }
   h2 {
     position: relative;
