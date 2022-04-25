@@ -3,12 +3,12 @@ import styled from "styled-components";
 
 const Bar = styled.div`
   background-color: white;
-  position: absolute;
-  display: flex;
+  position: relative;
   align-items: center;
-
-  width: 100vw;
+  z-index: 1;
+  width: 980px;
   height: 100px;
+  margin: 0 auto;
   top: 0px;
   h1 {
     position: absolute;

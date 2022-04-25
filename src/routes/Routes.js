@@ -7,7 +7,7 @@ import MainPage from "../pages/MainPage";
 const LoggedInRoutes = () => {
     <Routes>
         <Route path="/" element={<MainPage/>}/>
-        <Route path="/login" component={<AuthPage/>} />
+        <Route path="/login" element={<AuthPage/>} />
     
     </Routes>
 }

@@ -5,7 +5,7 @@ export const styleArea = styled.div`
   background-image: url(${Image});
   background-repeat: no-repeat;
   position: relative;
-  background-size: 100%;
+
   height: 600px;
   margin: 15px;
 `;
@@ -13,8 +13,8 @@ export const styleArea = styled.div`
 export const imageDiv = styled.div`
   position: absolute;
   top: 100px;
-  width: 100%;
-  height: 700px;
+  width: 100vw;
+  height: 650px;
   background-color: #525050;
 `;
 
@@ -36,7 +36,7 @@ export const textBox = styled.div`
   background-color: rgba(17, 35, 59, 0.3);
   border-radius: 50px;
   top: 180px;
-  left: calc(100% - 1150px);
+  left: 32%;
   width: 500px;
   height: 300px;
   h1 {
@@ -59,23 +59,23 @@ export const textBox = styled.div`
     left: 90px;
     bottom: 75px;
   }
-  @media only screen and (max-width: 1850px) {
+  /* @media only screen and (max-width: 2040px) {
     left: 660px;
   }
   @media screen and (max-width: 1700px) {
     left: calc(100% - 1000px);
   }
-  @media screen and (max-width: 1430px) {
-    left: 400px;
+  @media screen and (max-width: 1480px) {
+    left: 430px;
   }
   @media screen and (max-width: 1300px) {
-    left: 330px;
+    left: 350px;
   }
 
-  @media only screen and (max-width: 1100px) {
+  @media only screen and (max-width: 1150px) {
     left: 250px;
   }
   @media only screen and (max-width: 1000px) {
     left: 190px;
-  }
+  } */
 `;
