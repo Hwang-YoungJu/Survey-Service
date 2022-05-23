@@ -6,7 +6,7 @@ const Bar = styled.div`
   position: relative;
   align-items: center;
   z-index: 1;
-  width: 980px;
+  width: 1200px;
   height: 100px;
   margin: 0 auto;
   top: 0px;

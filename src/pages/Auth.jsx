@@ -1,11 +1,12 @@
 import React from "react";
+import LoginTemplate from "../components/Auth/LoginTemplate";
 
 const Auth = () => {
-    return (
-        <div>
-            로그인
-        </div>
-    )
-}
+  return (
+    <div>
+      <LoginTemplate />
+    </div>
+  );
+};
 
 export default Auth;

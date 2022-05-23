@@ -6,7 +6,7 @@ const StyledButton = styled.button`
   position: relative;
   width: 200px;
   height: 50px;
-  right: 50%;
+  right: 65%;
   background-color: rgba(0, 0, 0, 0);
   border-radius: 10px;
   outline: 0;
