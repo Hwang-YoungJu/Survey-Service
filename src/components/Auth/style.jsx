@@ -29,9 +29,9 @@ export const LoginBox = styled.div`
 export const inputArea = styled.div`
   width: 400px;
   height: 300px;
-  background-color: royalblue;
+
   position: relative;
-  top: 30%;
+  top: 25%;
   left: 10%;
 `;
 
@@ -54,9 +54,43 @@ export const styledInput = styled.input`
 `;
 
 export const styledButton = styled.button`
-  background-color: #00a88f;
+  background-color: #fff;
+  color: #00a88f;
+  width: 300px;
+  height: 60px;
+  border-radius: 10px;
+  position: relative;
+  border: 2px solid #00a88f;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  top: 15%;
+  left: 20%;
+  &:hover {
+    background-color: #00a88f;
+    transition: all 0.4s;
+    color: #000;
+  }
+`;
+
+export const styledButton2 = styled.button`
+  background-color: #fff;
+  color: #00a88f;
   width: 300px;
   height: 60px;
   border-radius: 10px;
   position: absolute;
+  border: 2px solid #00a88f;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  bottom: 10%;
+  margin-top: 20px;
+  left: 20%;
+
+  &:hover {
+    background-color: #00a88f;
+    transition: all 0.4s;
+    color: #000;
+  }
 `;
