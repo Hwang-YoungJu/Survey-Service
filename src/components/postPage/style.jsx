@@ -17,17 +17,29 @@ export const styleArea = styled.div`
 
 export const imageDiv = styled.div`
   position: absolute;
+  padding-top: 50px;
   top: 100px;
   width: 80%;
   left: 10%;
   height: 650px;
-  background-color: #6d6d6d;
+  background-color: #bc9f9f;
 `;
 
-export const backgroundArea = styled.div`
+export const menuArea = styled.div`
+  display: table;
   width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+  table-layout: fixed;
+  padding: 15px 0;
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-bottom: 1px solid #e2e2e2;
+  border-collapse: separate;
+  span {
+    display: table-cell;
+    text-align: center;
+  }
+  .H {
+    display: inline-block;
+    width: 80px;
+  }
 `;
