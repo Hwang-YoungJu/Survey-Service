@@ -11,7 +11,9 @@ const Main = () => {
             <h2>Welcome to</h2>
             <h1>SURVEY</h1>
             <h3>간단한 설문조사에 참여하세요!</h3>
-            <B.ButtonGo />
+            <S.defaultLink to="/survey">
+              <B.ButtonGo />
+            </S.defaultLink>
           </S.textBox>
         </S.styleArea>
       </S.imageDiv>

@@ -1,5 +1,10 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 import Image from "../../img/MainImage.jpg";
+
+export const defaultLink = styled(Link)`
+  text-decoration: none;
+`;
 
 export const styleArea = styled.div`
   background-image: url(${Image});
@@ -20,7 +25,7 @@ export const imageDiv = styled.div`
 
 export const backgroundArea = styled.div`
   width: 100%;
-  height: 1080px;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
