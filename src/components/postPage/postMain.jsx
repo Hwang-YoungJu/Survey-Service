@@ -5,6 +5,7 @@ const postMain = () => {
   return (
     <div>
       <S.imageDiv>
+        <h1>write</h1>
         <S.menuArea>
           <span>번호</span>
           <span>제목</span>

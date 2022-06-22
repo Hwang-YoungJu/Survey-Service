@@ -23,6 +23,12 @@ export const imageDiv = styled.div`
   left: 10%;
   height: 650px;
   background-color: #bc9f9f;
+  h1 {
+    position: absolute;
+    top: -24px;
+    right: 50px;
+    color: #00a885;
+  }
 `;
 
 export const menuArea = styled.div`
