@@ -31,6 +31,22 @@ export const imageDiv = styled.div`
   }
 `;
 
+export const imageDiv2 = styled.div`
+  position: absolute;
+  padding-top: 50px;
+  top: 100px;
+  width: 80%;
+  left: 10%;
+  height: 500px;
+  background-color: #bc9f9f;
+  h1 {
+    position: absolute;
+    top: -24px;
+    right: 50px;
+    color: #00a885;
+  }
+`;
+
 export const menuArea = styled.div`
   display: table;
   width: 100%;
@@ -66,15 +82,32 @@ export const menuArea2 = styled.div`
     display: inline-block;
     width: 80px;
   }
+  &:hover {
+    cursor: pointer;
+  }
 `;
 
 export const inputDiv = styled.div`
   position: relative;
-  align-items: center;
+
   margin: 0 auto;
   width: 800px;
-  height: 600px;
+  height: 300px;
   background-color: #a5a5a5;
+  label {
+    font-size: 25px;
+  }
+  div {
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    margin-left: 180px;
+  }
+  h1 {
+    position: relative;
+    top: 10px;
+    left: 36%;
+  }
 `;
 
 export const styledInput = styled.input`
@@ -83,8 +116,15 @@ export const styledInput = styled.input`
   width: 500px;
   height: 50px;
   &:first-child {
-    margin-top: 100px;
+    margin-top: 15px;
   }
+`;
+
+export const radioInput = styled.input`
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin: 20px;
 `;
 
 export const styledButton = styled.button`
@@ -98,7 +138,7 @@ export const styledButton = styled.button`
   border-radius: 10px;
   font-size: 20px;
   font-weight: 600;
-  bottom: 10%;
+  bottom: 2%;
   margin-top: 20px;
   left: 30%;
 
