@@ -67,3 +67,44 @@ export const menuArea2 = styled.div`
     width: 80px;
   }
 `;
+
+export const inputDiv = styled.div`
+  position: relative;
+  align-items: center;
+  margin: 0 auto;
+  width: 800px;
+  height: 600px;
+  background-color: #a5a5a5;
+`;
+
+export const styledInput = styled.input`
+  margin: 10px 140px;
+  position: relative;
+  width: 500px;
+  height: 50px;
+  &:first-child {
+    margin-top: 100px;
+  }
+`;
+
+export const styledButton = styled.button`
+  background-color: #fff;
+  color: #00a88f;
+  width: 300px;
+  height: 60px;
+  border-radius: 10px;
+  position: absolute;
+  border: 2px solid #00a88f;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  bottom: 10%;
+  margin-top: 20px;
+  left: 30%;
+
+  &:hover {
+    background-color: #00a88f;
+    transition: all 0.4s;
+    color: #000;
+  }
+`;

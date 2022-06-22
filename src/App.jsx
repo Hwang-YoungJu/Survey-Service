@@ -4,6 +4,7 @@ import MainPage from "./pages/MainPage";
 import Auth from "./pages/Auth";
 import SignUp from "./pages/SignUp";
 import SurveyPage from "./pages/surveyPage";
+import WritePage from "./pages/WritePage";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/login" element={<Auth />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="/survey" element={<SurveyPage />} />
+        <Route path="/write" element={<WritePage />} />
       </Routes>
     </>
   );
