@@ -43,3 +43,21 @@ export const menuArea = styled.div`
     width: 80px;
   }
 `;
+
+export const menuArea2 = styled.div`
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  padding: 15px 0;
+  border-top: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+  border-collapse: separate;
+  span {
+    display: table-cell;
+    text-align: center;
+  }
+  .H {
+    display: inline-block;
+    width: 80px;
+  }
+`;

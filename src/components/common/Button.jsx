@@ -20,6 +20,7 @@ const StyledButton = styled.button`
     background-color: #00a885;
     border-color: #00a88f;
     transition: all 0.6s;
+    cursor: pointer;
   }
 `;
 

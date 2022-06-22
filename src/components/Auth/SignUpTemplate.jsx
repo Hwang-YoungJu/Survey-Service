@@ -5,7 +5,9 @@ const SignUpTemplate = () => {
   return (
     <S.styledDiv>
       <S.LoginBox>
-        <h1>SURVEY</h1>
+        <S.defaultLink to="/">
+          <h1>SURVEY</h1>
+        </S.defaultLink>
         <S.inputArea>
           <S.styledInput placeholder="아이디를 입력해주세요" />
           <S.styledInput placeholder="비밀번호를 입력해주세요" />

@@ -61,11 +61,8 @@ const NavigationBar = () => {
         </DfLink>
         <LoginBox>
           <div>
-            <DfLink to="/login">
-              <h2>Sign in</h2>
-            </DfLink>
-            <DfLink to="/signup">
-              <h2>Sign up</h2>
+            <DfLink to="/">
+              <h2>LogOut</h2>
             </DfLink>
           </div>
         </LoginBox>

@@ -1,11 +1,11 @@
 import React from "react";
-import NavigationBar from "../components/common/NavigationBar";
+import LoginNavi from "../components/common/LoginNavi";
 import PostMain from "../components/postPage/postMain";
 
 const surveyPage = () => {
   return (
     <div>
-      <NavigationBar />
+      <LoginNavi />
       <PostMain />
     </div>
   );

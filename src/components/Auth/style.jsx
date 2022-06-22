@@ -1,5 +1,9 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
+export const defaultLink = styled(Link)`
+  text-decoration: none;
+`;
 export const styledDiv = styled.div`
   position: absolute;
   width: 100vw;
